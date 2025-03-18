@@ -1,12 +1,16 @@
-# React + Vite
+# Simple Movie Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple movie website built using React. This project demonstrates key React concepts such as JSX, components, state management, conditional rendering, and API integration. It also includes features like page routing, CSS styling, and searching for movies.
 
-Currently, two official plugins are available:
+## Features
+- **Movie Card Component**: Displays movie details in a card format.
+- **Conditional Rendering**: Dynamically renders content based on conditions.
+- **Home Page with `.map()`**: Lists movies using the `.map()` method.
+- **State Management**: Uses React state to manage data.
+- **Page Routing**: Implements navigation between different pages.
+- **CSS Styling**: Styled components for a clean and responsive UI.
+- **API Integration**: Fetches movie data from an external API.
+- **useEffect Hook**: Manages side effects like data fetching.
+- **Search Functionality**: Allows users to search for movies.
+- **Context API**: Manages global state using React Context.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
